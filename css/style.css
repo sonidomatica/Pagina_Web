@@ -1,0 +1,62 @@
+.main_header {
+background-color:grey ;
+color: white;
+font-size: 1rem;
+text-align: center;
+}
+body{
+    margin: 1rem;
+}
+h1 {margin: 1rem;
+padding: 1rem;}
+.flag {
+    float: right;
+    width: 50px;
+    margin: 1rem;
+}
+.flag:hover{
+    width: 70px;
+    transition-duration: 1s;
+}
+
+li {
+    border: 1px solid;
+    padding: 0.5rem;
+    background-color: silver;
+    border-radius: 10%;
+    display:inline-block;
+    list-style-type: none;
+    margin: 1rem;
+}
+li:hover{ 
+    background-color: gray;
+    padding: 1rem;
+    transition-duration: 1s;
+}
+
+.templo { 
+    max-width: 50%;
+    float: left;
+    padding: 1rem;
+}
+
+p {text-align: left;
+background-color: grey;
+color: white;
+padding: 1rem;
+}
+
+.redes{padding: 2rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer{background-color: gray;
+color: white;
+height: 3rem;}
+
+.redes:hover{
+    font-size: 2rem;
+    transition-duration: 1s;
+}
+
