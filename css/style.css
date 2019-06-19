@@ -1,10 +1,14 @@
 .main_header {
+font-family: 'Abril Fatface', cursive;
 background-color:grey ;
 color: white;
 font-size: 1rem;
 text-align: center;
+border:1px white solid;
+border-bottom-left-radius: 30%;
 }
 body{
+    font-family: 'Cutive Mono', monospace;
     margin: 1rem;
 }
 h1 {margin: 1rem;
@@ -29,7 +33,9 @@ li {
     margin: 1rem;
 }
 li:hover{ 
-    background-color: gray;
+    background-color: yellow;
+    color: black;
+    border: white;
     padding: 1rem;
     transition-duration: 1s;
 }
@@ -59,4 +65,32 @@ height: 3rem;}
     font-size: 2rem;
     transition-duration: 1s;
 }
+
+.flex img{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+    padding: 1rem;
+    max-width: 50%;
+    display: flex;
+}
+.flex p{
+    display: flex;
+    margin: 1rem;
+
+ }
+ 
+ footer{
+     border: 1px white solid;
+     border-top-left-radius: 30%;
+ }
+ 
+ .video{
+     max-width: 50%;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 1rem;
+ }
+
+
 
