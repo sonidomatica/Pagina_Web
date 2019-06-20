@@ -109,3 +109,7 @@ tr:nth-of-type(even){
 .centro{
   text-align: center;
 }
+
+span{
+    display: none;
+}
