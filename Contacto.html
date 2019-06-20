@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bec53fb2b7.js"></script>
+
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+        <header class="main_header">
+                <nav> 
+                    <h1>Etiopía</h1>
+                    <img  class="flag" src="./assets/flag.png" alt="">
+                    <ul>
+                     <li> <a href="./index.html"> Inicio</a> </li>
+                     <li> <a href="./Naturaleza.html"> Naturaleza </a></li>
+                     <li><a href="./Multimedia.html"> Multimedia</a></li>
+                     <li>Contacto</li>
+                    </ul>
+                </nav>
+            </header>
+
+        </form>
+        <h3 class="centro" >Contáctanos</h3>
+        <p class="centro">Dejanos tus datos y nos pondremos en contacto contigo lo mas pronto posible</p>
+        <form name="complete-post" method="POST"
+            action="https://jsonplaceholder.typicode.com/users">
+            <fieldset id="datos_personales">
+                <label for="userName" class="form_label">
+                    Nombre</label>
+                <input type="text" name="userName" id="userName" required
+                    class="form_control" placeholder="Nombre y apellidos">
+                <label for="email" class="form_label">Correo </label>
+                <input type="email" name="email" id="email" required
+                    class="form_control" placeholder="Tu correo electrónico">
+                <label for="birthDate" class="form_label">Fecha de nacimiento</label>
+                <input type="date" name="birthDate" id="birthDate" class="form_control">      
+            
+            <button type="submit">Enviar</button>
+        </fieldset>   
+        </form>
+            
+            <footer class="redes">
+                    <a href="https://www.facebook.com/"> <i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/?hl=es"> <i class="fab fa-instagram"></i></a>
+                    <a href="https://es.linkedin.com/"> <i class="fab fa-linkedin"></i></a>
+                    <address> <a href="https://sonidomatica@gmail.com">Andrés Galindo</a> </address>
+        
+            </footer>
+    
+            
+        
+    
+</body>
+</html>

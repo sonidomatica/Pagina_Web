@@ -6,6 +6,7 @@ font-size: 1rem;
 text-align: center;
 border:1px white solid;
 border-bottom-left-radius: 30%;
+margin-bottom: 1rem;
 }
 body{
     font-family: 'Cutive Mono', monospace;
@@ -77,6 +78,9 @@ height: 3rem;}
 .flex p{
     display: flex;
     margin: 1rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 
  }
  
@@ -100,4 +104,8 @@ margin-right: auto;}
 
 tr:nth-of-type(even){
     background-color: silver;
+}
+
+.centro{
+  text-align: center;
 }
